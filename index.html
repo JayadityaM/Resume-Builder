@@ -12,62 +12,49 @@
     <nav id="desktop-nav">
         <div class="logo">
             <img width="60" height="60" src="https://img.icons8.com/ios/50/resume.png" alt="resume"/>
-            <p>Resume <br />Builder</p>
+            <p>Resume Builder</p>
         </div>
         <div>
             <ul class="nav-links">
                 <li><a href="#templates">Templates</a></li>
-                <li><a href="#create">Create Resume</a></li>
                 <li><a href="#faq">FAQ</a></li>
                 <li><a href="#contact">Contact Us</a></li>
+                <button class="btn" onclick="location.href='./create.html'">Create Resume</button>
             </ul>
-        </div>
-    </nav>
-    <nav id="hamburger-nav">
-        <div class="logo">
-            <img width="50" height="50" src="https://img.icons8.com/ios/50/resume.png" alt="resume"/>
-            <p>Resume Builder</p>
-        </div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menu-links">
-                <li><a href="#templates" onclick="toggleMenu()">Templates</a></li>
-                <li><a href="#create" onclick="toggleMenu()">Create Resume</a></li>
-                <li><a href="#faq" onclick="toggleMenu()">FAQ</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact Us</a></li>
-            </div>
         </div>
     </nav>
 
     <section id="home">
         <div class="section__pic-container">
             <img class="image" src="./images/home-resume-1.jpg" alt="resume-pic"/>
-            <img class="image" src="./images/home-resume-2.jpg" alt="resume-pic"/>
         </div>
         <div class="section__text">
-            <h1 class="title">The Best Online<br />Resume Builder</h1>
-            <p class="section__text__p2">Create the perfect resume for any job using our best-in-class resume builder platform.</p>
+            <h1 class="title-home">The Best Online<br />Resume Builder</h1>
+            <p class="text_home">Create the perfect resume for any job using our best-in-class resume builder platform.</p>
             <div class="btn-container">
-                <button class="btn btn-color-1" onclick="location.href=''">Create Resume</button>
+                <button class="btn" onclick="location.href='./create.html'">Create Resume Now</button>
             </div>
             <div class="ratio-text">
                 <div class="text-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="" class="bi bi-arrow-up" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
-                    </svg>
-                    <h2>2x</h2>
-                    <p>More Interviews</p>
+                    <div class="stats">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="60" fill="#6420AA" class="bi bi-arrow-up" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
+                        </svg>
+                        <h2>2x</h2>
+                    </div>
+                    <p>more interviews</p>
                 </div>
+                <svg class="line" width="10" height="100">
+                    <line x1="0" y1="0" x2="0" y2="100" stroke="#6420AA" stroke-width="1" />
+                </svg>
                 <div class="text-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="" class="bi bi-arrow-up" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
-                    </svg>
-                    <h2>25%</h2>
-                    <p>More Job Offers</p>
+                    <div class="stats">
+                        <svg  xmlns="http://www.w3.org/2000/svg" width="35" height="60" fill="#6420AA" class="bi bi-arrow-up" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
+                        </svg>
+                        <h2>25%</h2>
+                    </div>
+                    <p>more job offers</p>
                 </div>
             </div>
         </div>
